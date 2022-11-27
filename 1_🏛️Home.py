@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import pickle
+import sklearn
 
 st.set_page_config(
     page_title="Stroke Predictor",
